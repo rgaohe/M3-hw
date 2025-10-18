@@ -12,7 +12,7 @@ import java.util.*;
 /**
  * BreedFetcher implementation that relies on the dog.ceo API.
  * Note that all failures get reported as BreedNotFoundException
- * exceptions to align with the requirements of the BreedFetcher interface.
+ * exceptions to align with the requirements of the dBreedFetcher interface.
  */
 public class DogApiBreedFetcher implements BreedFetcher {
     private final OkHttpClient client = new OkHttpClient();
